@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express =require('express'); //omport express
 const app=express();  // calling express for uese 
 const path=require('path'); //node module for path
