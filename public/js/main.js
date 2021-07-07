@@ -1,5 +1,5 @@
 
-        require('dotenv').config();
+        
 const submitBtn=document.getElementById('submitBtn');
 const cityName=document.getElementById('cityName');
 const city_name=document.getElementById('city_name');
