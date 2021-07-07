@@ -22,7 +22,7 @@ if(cityVal===""){
 else{
     try{
          
-let url=`https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=${process.env.API_KEY}`;
+let url=`http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=${process.env.API_KEY}`;
         const response= await fetch(url);
         const data = await response.json(); //get data in json form
         console.log(data);  
