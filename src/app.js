@@ -2,6 +2,7 @@ const express =require('express'); //omport express
 const app=express();  // calling express for uese 
 const path=require('path'); //node module for path
 const hbs =require('hbs'); // require hbs for use partials
+ 
 const port= process.env.PORT || 8000; // set enviornment variable
 
 // public static path
